@@ -1553,7 +1553,8 @@ a {
     border: none;
     outline: none;
     width: 100px;
-    height: 40px;
+    height: 30px;
+    padding: 0 10px;
     border-radius: 20px;
     background-color: var(--main-color);
     color: white;
@@ -2185,6 +2186,10 @@ a {
     text-align: center;
     color: white;
     font-weight: bold;
+}
+
+.footer .end i {
+    color: var(--main-color);
 }
 
 /* foooter end */
