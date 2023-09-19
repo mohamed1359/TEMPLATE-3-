@@ -1552,7 +1552,7 @@ a {
 .events .container form input[type="submit"] {
     border: none;
     outline: none;
-    width: 100px;
+    width: 85px;
     height: 30px;
     padding: 0 10px;
     border-radius: 20px;
