@@ -148,7 +148,7 @@ a {
     right: 0;
 }
 
-.dots-down{
+.dots-down {
     bottom: 100px;
     left: 0;
 }
@@ -360,6 +360,13 @@ a {
 
 .head .inner-links .col-1 li:not(:last-child) {
     border-bottom: 2px solid #eee;
+}
+
+@media (max-width:767px) {
+    .head .inner-links .col-1 li {
+        border-bottom: 2px solid #eee;
+
+    }
 }
 
 .head .inner-links .col-1 li i {
@@ -1545,14 +1552,13 @@ a {
 .events .container form input[type="submit"] {
     border: none;
     outline: none;
-    padding: 10px;
+    width: 100px;
+    height: 40px;
     border-radius: 20px;
     background-color: var(--main-color);
     color: white;
-    font-size: 17px;
     font-weight: bold;
-    text-transform: capitalize;
-    cursor: pointer;
+    text-transform: lowercase;
 }
 
 /* latest events end */
