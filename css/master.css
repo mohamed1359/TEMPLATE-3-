@@ -1523,9 +1523,11 @@ a {
 }
 
 
-@media (max-width:767px){
-    .events .container form{
+@media (max-width:767px) {
+    .events .container form {
         margin-top: 10px;
+        padding: 10px;
+
     }
 }
 
