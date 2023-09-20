@@ -1526,7 +1526,7 @@ a {
     border: none;
     outline: none;
     width: 350px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 20px;
     caret-color: var(--main-color);
     transition: var(--main-transtion);
@@ -1534,12 +1534,8 @@ a {
 }
 @media (max-width:767px) {
     .events .container form {
-        flex-direction: column;
         width:300px;
-        gap: 20px;
-    }
-    .events .container form input[type="email"]{
-        width: 250px;
+        gap: 10px;
     }
 }
 
