@@ -1513,18 +1513,20 @@ a {
 
 .events .container form {
     display: flex;
+    gap: 20px;
     align-items: center;
     gap: 20px;
-    border: 20px solid #eee;
     background-color: #eee;
-    border-radius: 5px;
-    width: fit-content;
+    border-radius: 30px;
+    width: 600px;
+    height: 70px;
     margin: auto;
 }
 
 
 @media (max-width:767px) {
     .events .container form {
+        width: 300px;
         margin-top: 10px;
     }
 }
@@ -1537,7 +1539,7 @@ a {
     caret-color: var(--main-color);
     transition: var(--main-transtion);
     flex-basis: 75%;
-
+    margin-left: 5px;
 }
 
 
@@ -1559,7 +1561,8 @@ a {
     color: white;
     font-weight: bold;
     text-transform: capitalize;
-    flex-basis: 23%;
+    flex-basis: 22%;
+    margin-right: 5px;
 }
 
 /* latest events end */
