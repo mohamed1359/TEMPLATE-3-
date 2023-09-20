@@ -1522,14 +1522,6 @@ a {
     border-radius: 40px;
 }
 
-@media (max-width:767px) {
-    .events .container form {
-        flex-direction: column;
-        width: 388px;
-        gap: 20px;
-    }
-}
-
 .events .container form input[type="email"] {
     border: none;
     outline: none;
@@ -1539,6 +1531,16 @@ a {
     caret-color: var(--main-color);
     transition: var(--main-transtion);
 
+}
+@media (max-width:767px) {
+    .events .container form {
+        flex-direction: column;
+        width:300px;
+        gap: 20px;
+    }
+    .events .container form input[type="email"]{
+        width: 250px;
+    }
 }
 
 .events .container form input[type="email"]::placeholder {
@@ -1558,7 +1560,7 @@ a {
     background-color: var(--main-color);
     color: white;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 /* latest events end */
