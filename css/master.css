@@ -1515,29 +1515,32 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 500px;
-    margin: 20px auto;
+    border: 20px solid #eee;
     background-color: #eee;
-    padding: 20px;
-    border-radius: 40px;
+    border-radius: 30px;
+    width: 60%;
+    margin: auto;
+}
+
+@media (max-width:767px) {
+    .events .container form {
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 .events .container form input[type="email"] {
     border: none;
     outline: none;
-    width: 350px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 20px;
     caret-color: var(--main-color);
     transition: var(--main-transtion);
+    flex-basis: 75%;
 
 }
-@media (max-width:767px) {
-    .events .container form {
-        width:300px;
-        gap: 10px;
-    }
-}
+
 
 .events .container form input[type="email"]::placeholder {
     text-transform: capitalize;
@@ -1557,6 +1560,7 @@ a {
     color: white;
     font-weight: bold;
     text-transform: capitalize;
+    flex-basis: 23%;
 }
 
 /* latest events end */
