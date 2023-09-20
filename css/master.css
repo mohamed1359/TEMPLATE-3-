@@ -1524,7 +1524,8 @@ a {
 
 @media (max-width:767px) {
     .events .container form {
-        width: 350px;
+        flex-direction: column;
+        width: 388px;
         gap: 20px;
     }
 }
@@ -1552,14 +1553,12 @@ a {
 .events .container form input[type="submit"] {
     border: none;
     outline: none;
-    width: 85px;
-    height: 30px;
-    padding: 0 10px;
+    padding: 10px;
     border-radius: 20px;
     background-color: var(--main-color);
     color: white;
     font-weight: bold;
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 
 /* latest events end */
